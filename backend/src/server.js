@@ -16,11 +16,11 @@ const PORT = process.env.PORT;
 const __dirname = path.resolve();
 
 // CORS configuration for both development and production
+// CORS configuration for both development and production
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:3000",
-  "https://streamify-app.onrender.com", // Add your Render frontend URL here
-  "https://your-frontend-domain.com" // Add your actual frontend domain
+  "https://quickchat-40xm.onrender.com" // Your actual frontend URL
 ];
 
 app.use(
